@@ -1,3 +1,3 @@
 @Library('first') _
 
-mavenBuild
+mavenBuild()
