@@ -1,13 +1,3 @@
-pipeline {
-    agent any 
-    stages {
-    stage('maven install') {
-      steps {
+@Library('first') _
 
-        sh 'mvn clean install'
-
-      }
-    }
-
-  }
-}
+mavenBuild
